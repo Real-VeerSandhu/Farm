@@ -8,7 +8,6 @@ def main():
         print('-'*50)
         os.system(f'git commit -am "#{planted_crop}"')
         os.system('git push --all')
-        print('-'*50)
         time.sleep(0.1)
 
     
